@@ -1,5 +1,5 @@
 # Start with the cypress/factory base image
-FROM cypress/factory:latest
+FROM cypress/browsers:node-20.14.0-chrome-126.0.6478.114-1-ff-127.0.1-edge-126.0.2592.61-1
 
 # Set working directory
 WORKDIR /app
