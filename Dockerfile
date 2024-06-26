@@ -13,5 +13,5 @@ RUN npm install cypress@latest playwright-webkit@1.34 --save-dev
 # Copy the rest of the project files
 COPY . .
 
-# Run the tests
-CMD ["npx", "cypress", "run"]
+# Set the entry point to run Cypress tests
+ENTRYPOINT ["npx", "cypress", "run"]
